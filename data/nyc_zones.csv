@@ -1,0 +1,8 @@
+zone_id,zone_name,min_lat,max_lat,min_lon,max_lon,area
+1,Manhattan Downtown,40.7000,-74.0100,40.7500,-73.9700,25
+2,Manhattan Midtown,40.7500,-74.0000,40.7700,-73.9700,20
+3,Manhattan Upper East,40.7700,-73.9800,40.7900,-73.9500,15
+4,Manhattan Upper West,40.7700,-74.0000,40.7900,-73.9800,15
+5,Brooklyn Downtown,40.6800,-74.0000,40.7000,-73.9800,20
+6,JFK Airport,40.6300,-73.8000,40.6600,-73.7700,30
+7,LaGuardia Airport,40.7700,-73.8900,40.7900,-73.8600,25 
