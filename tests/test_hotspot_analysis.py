@@ -17,11 +17,11 @@ def test_config_initialization():
     config = Config(DataScale.DEV)
     assert config.cell_size == 0.01
     assert config.min_trips_per_cell == 10
-    assert "dev" in str(config.data_pattern)
+    assert str(config.data_pattern) == "yellow_tripdata_2009-01.parquet"
 
 def test_prod_config():
     config = Config(DataScale.PROD)
-    assert "prod" in str(config.data_pattern)
+    assert str(config.data_pattern) == "yellow_tripdata_2009-*.parquet"
     assert config.spark_config["spark.executor.memory"] == "4g"
 
 def test_hotspot_analysis_initialization(analyzer):
