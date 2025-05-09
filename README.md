@@ -1,12 +1,12 @@
 # NYC Taxi Hotspot Analysis
 
-[![CI/CD](https://github.com/vamshim005/nyc-taxi-hotspot/actions/workflows/ci.yml/badge.svg)](https://github.com/vamshim005/nyc-taxi-hotspot/actions/workflows/ci.yml)
+[![CI](https://github.com/vamshim005/nyc-taxi-hotspot/actions/workflows/ci.yml/badge.svg)](https://github.com/vamshim005/nyc-taxi-hotspot/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/vamshim005/nyc-taxi-hotspot/branch/main/graph/badge.svg)](https://codecov.io/gh/vamshim005/nyc-taxi-hotspot)
 [![Docker Image](https://img.shields.io/docker/pulls/vamshim005/nyc-taxi-hotspot.svg)](https://hub.docker.com/r/vamshim005/nyc-taxi-hotspot)
 
 A scalable analysis pipeline for identifying hotspots in NYC taxi pickup data using the Getis-Ord G* statistic.
 
-## Features
+## Features :
 
 - **Hotspot Detection**: Uses Getis-Ord G* statistic to identify statistically significant clusters
 - **Scalable Processing**: Leverages PySpark for distributed computation
@@ -91,7 +91,10 @@ Example hotspots include:
 - JFK Airport (G* = 14.18)
 - LaGuardia Airport (G* = 12.93)
 
+## Example Hotspot Heatmap
+
+[View Interactive NYC Taxi Hotspot Heatmap](results/hotspots_map.html)
+
 ## License
 
 MIT 
-
